@@ -16,7 +16,6 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'     // Web dependency
     implementation 'org.springframework.cloud:spring-cloud-config-server' // Spring Cloud Config Server
     implementation 'org.springframework.cloud:spring-cloud-starter-config'
-    implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'  // For RabbitMQ
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
