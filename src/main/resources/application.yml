@@ -10,8 +10,9 @@ spring:
       server:
         native:
           searchLocations: classpath:/config
+
 management:
   endpoints:
     web:
       exposure:
-        include: refresh, bus  # Expose refresh and bus endpoints
+        include: refresh  # Expose refresh and bus endpoints
